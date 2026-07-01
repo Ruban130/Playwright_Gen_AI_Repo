@@ -258,7 +258,7 @@ MIT License - See [LICENSE](LICENSE)
 
 ## 👤 Author
 
-**Ruban** - Principal SDET @ Microsoft
+**Ruban** - Principal SDET @ Concentrix
 - GitHub: [@Ruban130](https://github.com/Ruban130)
 
 ---
