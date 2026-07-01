@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  playwright-tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ENVIRONMENT=dev
+      - BASE_URL=https://example.com
+      - HEADLESS=true
+    volumes:
+      - ./test-results:/app/test-results
+      - ./allure-results:/app/allure-results
+    networks:
+      - automation-network
+
+networks:
+  automation-network:
+    driver: bridge
